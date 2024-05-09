@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+     viewBox="0 0 1920 1080" style="enable-background:new 0 0 1920 1080;" xml:space="preserve">
+
+
+<style type="text/css">
+    .st0{fill:pink; transition: transform 4s, fill 3s;}
+.st0:hover{fill:purple;transform: scale(2, 0.5); transition: transform 4s, fill 3s;}
+    .st1{fill:green; transition: transform 4s, fill 3s;}
+.st1:hover{fill:blue;  transform: scaleY(1.5); transition: transform 4s, fill 3s;}
+</style>
+
+
+<g id="square">
+    <g>
+        <rect x="336" y="294" class="st0" width="459" height="459"/>
+    </g>
+</g>
+<g id="circle">
+    <circle class="st1" cx="1354" cy="534" r="227"/>
+</g>
+
+
+var stinky = 50;
+var cat = 9;
+var kiki = document.getElementaryId("square");
+kiki.addEventlistener("mousedown", function(){
+alert("popped")]});
+
+var mama = document.getElementById("circle");
+mama.addEventListener("mousedown", function(){
+alert("popped")
+});
+
+</svg>
